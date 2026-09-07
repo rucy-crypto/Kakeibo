@@ -1,0 +1,53 @@
+name: simple_ledger
+description: "複式簿記ベースの家計簿アプリ Simple Ledger"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Local DB
+  drift: ^2.23.1
+  drift_flutter: ^0.2.4
+  sqlite3_flutter_libs: ^0.5.31
+
+  # Utilities
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  path: ^1.9.0
+  path_provider: ^2.1.5
+
+  # Charts
+  fl_chart: ^0.70.2
+
+  # Export
+  share_plus: ^10.1.4
+  csv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  # Code generation
+  build_runner: ^2.4.14
+  drift_dev: ^2.23.1
+  riverpod_generator: ^2.6.4
+  custom_lint: ^0.7.5
+  riverpod_lint: ^2.6.4
+
+flutter:
+  uses-material-design: true

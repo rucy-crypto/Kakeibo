@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "201693306265",
+    "project_id": "accountbook-b466a",
+    "storage_bucket": "accountbook-b466a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201693306265:android:7c1d2171b0bb6f6017c708",
+        "android_client_info": {
+          "package_name": "com.example.simple_ledger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201693306265-ep9mipmfmi384o8e2vlke36mi92m1942.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5v2aELOmKU9aDT4n0GouQlB1Y_QgQAAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201693306265-ep9mipmfmi384o8e2vlke36mi92m1942.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
